@@ -26,7 +26,7 @@ AuthorizedKeysFile .ssh/authorized_keys
 ```
 
 ### 3) authorized_keys 파일 설정
-- 파일위치: C:\Users\(윈도우 사용자)\.ssh\authorized_keys
+- 파일위치: C:\Users\\<윈도우 사용자>\\.ssh\authorized_keys
 - 이 점프 호스트에 접속할 리모트 PC1의 user의 rsa public key
 
 ### 4) 파일 권한 조정 (관리자 권한)
