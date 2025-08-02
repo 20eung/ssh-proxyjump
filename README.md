@@ -108,3 +108,7 @@ Host target-server2
 ssh target-server1
 ssh target-server2
 ```
+
+---
+## Reference
+1. [https://github.com/20eung/items2](https://github.com/20eung/items2)
