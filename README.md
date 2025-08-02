@@ -112,3 +112,4 @@ ssh target-server2
 ---
 ## Reference
 1. [MacOS에서 iTems2를 이용해 북마크 관리하는 방법](https://github.com/20eung/items2)
+2. [MacOS에서 iTerms2의 단축키 설정 방법](https://github.com/20eung/macos-iterms2-shortcut)
