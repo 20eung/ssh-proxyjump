@@ -111,4 +111,4 @@ ssh target-server2
 
 ---
 ## Reference
-1. [https://github.com/20eung/items2](https://github.com/20eung/items2)
+1. [MacOS에서 iTems2를 이용해 북마크 관리하는 방법](https://github.com/20eung/items2)
