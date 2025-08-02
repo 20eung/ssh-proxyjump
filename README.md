@@ -29,7 +29,7 @@ AuthorizedKeysFile .ssh/authorized_keys
 - 파일위치: C:\Users\\<윈도우 사용자>\\.ssh\authorized_keys
 - 이 점프 호스트에 접속할 리모트 PC1의 user의 rsa public key
 
-### 4) 파일 권한 조정 (관리자 권한)
+### 4) 파일 권한 조정 (관리자 권한으로 PowerShell에서 실행)
 ```powershell
 icacls $env:USERPROFILE\.ssh /inheritance:r
 icacls $env:USERPROFILE\.ssh\authorized_keys /inheritance:r
@@ -41,7 +41,7 @@ icacls $env:USERPROFILE\.ssh\authorized_keys /grant "$($env:USERNAME):R"
 - 만약 점프 호스트의 사용자 계정이 Administrators 그룹에 속한다면 필수 설정
 - 이 점프 호스트에 접속할 리모트 PC1의 user의 rsa public key
 
-### 6) 파일 권한 조정 (관리자 권한)
+### 6) 파일 권한 조정 (관리자 권한 PowerShell에서 실행)
 ```powershell
 icacls "C:\ProgramData\ssh\administrators_authorized_keys" /inheritance:r
 icacls "C:\ProgramData\ssh\administrators_authorized_keys" /grant "BUILTIN\Administrators:R"
