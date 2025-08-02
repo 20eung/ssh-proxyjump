@@ -1,4 +1,4 @@
-# SSH ProxyJump for Windows
+# Windows PC를 Jump Host(Proxy Jump)로 구성하는 방법
 
 - Windows 11 PC를 Jump Host(Proxy Jump)로 구성하는 방법
 - 점프 호스트는 내부 네트워크에 있는 서버에 안전하게 접속할 수 있도록 중간에서 SSH 연결을 중계하는 역할
