@@ -96,11 +96,11 @@ Host target-server1
   ProxyJump jumphost
 
 Host target-server2
-  HostName 192.168.x.x  # 타겟 서버2의 IP
+  HostName 192.168.x.x  # 타겟 서버2의 IP, 타겟 서버1을 경유해 접속
   User traget-server_username
   IdentityFile ~/.ssh/jumphost-user_rsa
   IdentitiesOnly yes
-  ProxyJump jumphost
+  ProxyJump target-server1
 ```
 
 ### 2) 접속 방법
